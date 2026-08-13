@@ -1,91 +1,149 @@
-# Debjoy Thakur Academic Website
+# Debjoy Thakur, Ph.D.
 
-This folder is ready for GitHub Pages.
+Welcome to my academic GitHub repository.
 
-## Upload instructions
+I am a faculty member at **Ahmedabad University, India**, working in **Statistics, Spatial Statistics, Statistical Learning, and Data Science**. Previously, I was a Postdoctoral Lecturer in the Department of Statistics and Data Science at Washington University in St. Louis.
 
-1. Open your GitHub repository: `debjoythakur/debjoy.github.io`.
-2. Upload **the contents of this ZIP**, not the outer ZIP folder itself.
-3. Make sure `index.html` is visible at the top level of the repository.
-4. Go to **Settings → Pages**.
-5. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-6. Save.
-7. After deployment, your site should appear at:
-   `https://debjoythakur.github.io/`
+This repository supports my academic website and provides access to information about my **research, publications, teaching, software, and curriculum vitae**.
 
-## Add your photograph
+## Research Interests
 
-The current homepage shows a circular `DT` placeholder.
+My research interests include:
 
-To use your photograph:
-1. Add your photo to the `assets` folder and call it `debjoy.jpg`.
-2. In `index.html`, replace:
+* High-dimensional spatial variable selection
+* Statistical learning theory
+* Spatial and spatio-temporal statistics
+* Spatial extremes
+* Spatial genomics and fMRI data analysis
+* Network data analysis
+* Variational inference
+* Deep learning for spatial data
 
-```html
-<div class="avatar-placeholder">DT</div>
+A major focus of my research is the development of statistical learning methods that account for **spatial heterogeneity, nonstationarity, multiresolution structure, and complex dependence**.
+
+## Research
+
+My current research spans several interconnected areas of spatial statistics and statistical learning, including:
+
+* **Localized Variable Selection:** Development of Local LASSO, localized SCAD, and multiresolution variable-selection methods for spatially varying relationships.
+* **Spatial Point Processes:** High-dimensional and localized modeling of spatial intensity functions with applications to crime, transportation, and environmental data.
+* **Spatial Extremes:** Statistical and machine-learning methods for extreme environmental processes.
+* **Spatial Deep Learning:** Neural-network and graph-based methods incorporating spatial dependence and local structure.
+* **Spatial Data on Manifolds:** Intensity and pair-correlation estimation for point processes observed on Riemannian manifolds.
+* **Variational Inference:** Computationally scalable variational methods for spatial models and restricted maximum likelihood estimation.
+* **Spatial Genomics:** Feature-selection and statistical-learning methods for irregularly spaced spatial transcriptomics data.
+
+## Selected Publications and Research
+
+### Published / Accepted
+
+* **Thakur, D.** (2026). *Variational Approximated Restricted Maximum Likelihood Estimation for Spatial Data.* Accepted in **Statistics and Probability Letters**.
+* **Thakur, D. and Das, I.** (2022). *Statistical assessment of Spatio-temporal impact of COVID-19 lockdown on air pollution using different modeling approaches in India, 2019–2020.* **Regional Statistics**.
+* **Thakur, D., Bhattacharya, S. and Das, I.** (2022). *Uni-variate and Bi-variate Inverted Exponential-Teissier Distribution in Bayesian and Non-Bayesian framework to Model Stochastic Dynamic Variation of Climate data.* **Theoretical and Applied Climatology**.
+* **Thakur, D., Das, I. and Chakravarty, S.** (2023). *A spatial copula interpolation in a random field with application in air pollution data.* **Modeling Earth System and Environment**.
+
+### Ongoing Research
+
+Current projects include work on:
+
+* Multiresolution spatial variable selection
+* Local LASSO and localized spatial regression
+* Pair correlation functions on Riemannian manifolds
+* Non-Gaussian deep neural networks
+* Neural-network simulation of spatial streamflow
+* Local spatial deep indicator kriging
+* Spatial federated feature selection for spatial transcriptomics
+* Local spatial fusion of climate-model projections
+* Statistical inference for spatial extreme hotspots
+
+## Teaching
+
+I have taught undergraduate and graduate courses in statistics, including:
+
+* Linear Models
+* Survival Analysis
+* Probability
+* Stochastic Processes
+
+My teaching philosophy emphasizes the connection between **mathematical foundations, statistical methodology, computation, and real-world applications**.
+
+## Software
+
+I develop statistical software accompanying my methodological research.
+
+### R
+
+`localLASSO`
+
+Methods for localized variable selection and spatial regression.
+
+### Python
+
+`gpdpenCNN`
+
+Deep-learning methods for generalized Pareto and spatial extreme-value modeling.
+
+These packages are currently under development.
+
+## Repository Structure
+
+```text
+.
+├── index.html              # Academic homepage
+├── README.md               # Repository overview
+│
+├── cv/
+│   └── Debjoy_Thakur_CV.pdf
+│
+├── research/
+│   └── Research projects and supplementary material
+│
+├── papers/
+│   └── Manuscripts and publication information
+│
+├── code/
+│   └── Research code and reproducible examples
+│
+├── teaching/
+│   └── Teaching-related material
+│
+└── assets/
+    ├── css/
+    ├── images/
+    └── files/
 ```
 
-with:
+## Curriculum Vitae
 
-```html
-<img class="profile-photo" src="assets/debjoy.jpg" alt="Debjoy Thakur">
-```
+My complete academic CV is available in the [`cv/`](cv/) directory.
 
-3. Add this CSS to `assets/style.css`:
+## Academic Profiles
 
-```css
-.profile-photo{
-  width:110px;
-  height:110px;
-  border-radius:50%;
-  object-fit:cover;
-  margin-bottom:22px;
-}
-```
+**Google Scholar:**
+https://scholar.google.com/citations?user=2VVChMUAAAAJ&hl=en
 
-## Add your CV PDF
+**GitHub:**
+https://github.com/debjoythakur
 
-Compile your latest CV in Overleaf and download the PDF.
+**Ahmedabad University Faculty Profile:**
+https://ahduni.edu.in/faculty/debjoy-thakur
 
-Rename it:
+## Contact
 
-`Debjoy_Thakur_CV.pdf`
+**Debjoy Thakur, Ph.D.**
+Ahmedabad University
+Ahmedabad, Gujarat, India
 
-Upload it into:
+**Email:**
+[debjoy.thakur@ahduni.edu.in](mailto:debjoy.thakur@ahduni.edu.in)
+[debjoythakur@outlook.com](mailto:debjoythakur@outlook.com)
 
-`files/`
+---
 
-Then add this button to `cv.html` inside the existing button row:
+### Research Areas
 
-```html
-<a class="btn primary" href="files/Debjoy_Thakur_CV.pdf" target="_blank">Download CV PDF</a>
-```
+`Spatial Statistics` · `Statistical Learning` · `Spatial Variable Selection` · `Spatial Extremes` · `Point Processes` · `Deep Learning` · `Variational Inference` · `Spatial Genomics`
 
-## Add research code
+---
 
-Keep code in separate repositories. Recommended examples:
-
-- `localLASSO`
-- `gpdpenCNN`
-- `vreml-spatial`
-- `spatial-intensity-selection`
-- `local-lasso-spatial`
-- `manifold-pcf`
-
-Then replace the placeholder GitHub links on `software.html` and add `[Code]` links beside the corresponding papers on `publications.html`.
-
-## Main files
-
-- `index.html` — homepage
-- `research.html` — research program
-- `publications.html` — publications/preprints
-- `software.html` — software and code
-- `teaching.html` — teaching portfolio
-- `cv.html` — CV summary and download
-- `assets/style.css` — all visual styling
-- `assets/script.js` — mobile navigation and copyright year
-
-No Jekyll, npm, Python, or build step is required.
+*This repository is maintained as part of my academic website and is periodically updated with publications, research projects, software, and teaching materials.*
